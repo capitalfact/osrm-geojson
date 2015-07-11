@@ -1,6 +1,6 @@
 # osrm-geojson
 
-A node module for decoding OSRM shapes and returning GeoJSON, built to map the results of [Mapzen's Valhalla routing engine](https://mapzen.com/projects/valhalla/), but adaptible to anything using [Project OSRM](http://project-osrm.org/).
+A node module for decoding OSRM shapes and returning GeoJSON geometry, built to map the results of [Mapzen's Valhalla routing engine](https://mapzen.com/projects/valhalla/), but adaptible to anything using [Project OSRM](http://project-osrm.org/).
 
 ## API
 
@@ -8,7 +8,7 @@ A node module for decoding OSRM shapes and returning GeoJSON, built to map the r
 osrmDecode(encodedObject, precision)
 ```
 
-- `encodedObject` is the raw shape returned by the routing API. e.g. ``
+- `encodedObject` is the raw shape returned by the routing API. e.g. 'egyc`A~qau~EzA?vg@?fT??~h@jAndCus@NG{k@'
 - `precision` is an integer (6 is a good benchmark)
 
 ## Example
