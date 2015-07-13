@@ -1,6 +1,6 @@
 {
   "name": "osrm-geojson",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Decode OSRM shapes and return GeoJSON",
   "main": "index.js",
   "scripts": {
